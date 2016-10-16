@@ -104,6 +104,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+  p {
+    font-size: 10vw;
+  }
   .all {
     margin-left: 0;
     width: 98%;
@@ -137,7 +140,7 @@ p {
     margin-left: 1vw;
     margin-top: 4vw;
     height: 12vw;
-    width: 24vw;
+    width: 25.5vw;
   }
   #start {
     margin-top: 1vw;
