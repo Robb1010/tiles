@@ -125,7 +125,33 @@ p {
     margin: 1vw;
   }
   .controls {
-    margin-top: 15vh;
-    margin-left: 25vw;
+    margin-left: 16.5vw;
+    height: 20vw;
+    width: 60vw;
+  }
+  .controls-content {
+    width: 58vw;
+    margin: 1vw;
+  }
+  .count {
+    margin-left: 1vw;
+    margin-top: 4vw;
+    height: 12vw;
+    width: 24vw;
+  }
+  #start {
+    margin-top: 1vw;
+    border-radius: 0;
+    width: 15vw;
+    height: 18vw;
+  }
+
+  #strict {
+    float: right;
+    border-radius: 0;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    width: 15vw;
+    height: 18vw;
   }
 }
