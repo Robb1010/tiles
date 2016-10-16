@@ -1,0 +1,131 @@
+body {
+  margin: auto;
+  background-image: url("bckgr.png");
+  background-repeat: repeat;
+}
+
+@font-face {
+  font-family: "Subway";
+  src: url(subway-ticker.ttf) format("truetype");
+}
+
+p {
+  font-family: Subway, sans-serif;
+  font-size: 4vh;
+  float: right;
+  position: relative;
+  margin-right: -1.3vh;
+  color: #333;
+}
+
+.all {
+  margin-left: 15vw;
+  width: 75vw;
+}
+
+.main {
+  margin-top: 10vh;
+  width: 35vw;
+}
+
+.col-md-9 {
+  width: 40vw;
+}
+
+.col-md-3 {
+  margin-top: 21vw;
+}
+
+.col-xs-6 {
+  height: 15vw;
+  width: 15vw;
+  margin: 1vw;
+}
+
+.controls {
+  height: 8vh;
+  width: 26vh;
+  background-color: #518570;
+  box-shadow: 0 0 15px #518570;
+}
+
+.controls-content {
+  width: 24vh;
+  margin: 1vh;
+}
+
+.count {
+  margin-left: 1.5vh;
+  margin-top: 1.5vh;
+  height: 5vh;
+  width: 11vh;
+  background-color: #8e988e;
+  box-shadow: 0 0 3vh #8e988e;
+}
+
+#start {
+  margin-top: 1.5vh;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+  background-color: #c23d3d;
+  box-shadow: 0 0 3vh #c23d3d;
+}
+
+#strict {
+  float: right;
+  margin-left: 1.5vh;
+  margin-top: 1.5vh;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: #ffd646;
+  box-shadow: 0 0 3vh #ffd646;
+}
+
+#green {
+  background-color: #33a356;
+  box-shadow: 0 0 15px #33a356;
+}
+
+#blue {
+  background-color: #479bc4;
+  box-shadow: 0 0 15px #479bc4;
+}
+
+#orange {
+  background-color: #ff6600;
+  box-shadow: 0 0 15px #ff6600;
+}
+
+#yellow {
+  background-color: #ffff66;
+  box-shadow: 0 0 15px #ffff66;
+}
+
+@media screen and (max-width: 768px) {
+  .all {
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .main {
+    margin: auto;
+    margin-left: 4.5vw;
+    margin-top: 5vh;
+    width: 90vw;
+  }
+  .col-md-9 {
+    margin: auto;
+    width: 100%;
+  }
+  .col-xs-6 {
+    height: 43vw;
+    width: 43vw;
+    margin: 1vw;
+  }
+  .controls {
+    margin-top: 15vh;
+
+  }
+}
